@@ -9,5 +9,5 @@ img.addEventListener('mouseover', function() {
   img.style.cursor = 'pointer';
 });
 img.addEventListener("click", function() {
-  alert("bilden har klickats!");
+  document.body.innerHTML = '';
 });
