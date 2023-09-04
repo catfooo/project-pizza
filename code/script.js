@@ -10,4 +10,5 @@ img.addEventListener('mouseover', function() {
 });
 img.addEventListener("click", function() {
   document.body.innerHTML = '';
+  document.body.style.backgroundColor = "lightblue";
 });
